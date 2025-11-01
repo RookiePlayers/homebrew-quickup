@@ -2,8 +2,8 @@ class Quickup < Formula
     desc "One-shot dev workspace bootstrapper"
     homepage "https://github.com/RookiePlayers/Quickup.git"
     url "https://raw.githubusercontent.com/RookiePlayers/Quickup/main/setup_workspace.sh"
-    version "1.1.0"
-    sha256 "db2247e96634d93e631abc62e4568675db55b3f5b5296050c242f76d76bd4223"
+    version "1.2.0"
+    sha256 "3ecfde85a9936e3748030f4e5087a2fff6f438148e8b6b927413ba4a4cfc47fe"
     license "MIT"
     def install
       bin.install "setup_workspace.sh" => "quickup"
